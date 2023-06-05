@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  height: 50px;
+  background-color: #ff9a4b;
+}
+
+main {
+  width: 960px;
+  display: flex;
+  margin: 50px auto;
+}
+
+.box {
+  width: 300px;
+  background-color: #eeeeee;
+  position: relative;
+}
+
+.box:nth-child(2) {
+  margin: 0 30px;
+}
+
+.main-image1 {
+  background-image: url(../img/flow01.png);
+  width: 280px;
+  height: 150px;
+  margin: 10px 10px 0px;
+  background-size: cover;
+  background-position: bottom;
+}
+
+.main-image2 {
+  background-image: url(../img/flow02.png);
+  width: 280px;
+  height: 150px;
+  margin: 10px 10px 0px;
+  background-size: cover;
+  background-position: bottom;
+}
+
+.main-image3 {
+  background-image: url(../img/flow03.png);
+  width: 280px;
+  height: 150px;
+  margin: 10px 10px 0px;
+  background-size: cover;
+  background-position: bottom;
+}
+
+/*画像が背景扱いになっていないのでやり直し
+.image {
+  width: 280px;
+  height: 150px;
+  margin: 10px;
+  background-size: cover;
+  background-position: bottom;
+}*/
+
+h3 {
+  padding: 0 10px;
+  margin: 15px 0 5px;
+}
+
+.step-text {
+  padding: 0 10px 10px;
+}
+
+.num {
+  background-color: #ff9a4b;
+  color: #fff;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+footer {
+  width: 100%;
+  height: 50px;
+  background-color: #aaaaaa;
+}
